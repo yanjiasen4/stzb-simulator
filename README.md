@@ -1,4 +1,4 @@
-# stzb-simulator
+# stzb-simulator [![Build Status](https://travis-ci.com/yanjiasen4/stzb-simulator.svg?branch=master)](https://travis-ci.com/yanjiasen4/stzb-simulator)
 
 > A simulator of Netease mobile game ShuaiTuZhiBin
 
