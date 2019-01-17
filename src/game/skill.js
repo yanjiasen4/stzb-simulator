@@ -1,3 +1,5 @@
+import SkillData from ''
+
 const skillType = {
   active: 1,
   passive: 2,
@@ -5,10 +7,26 @@ const skillType = {
   chase: 4
 }
 
+function loadSkillById (sid) {
+}
+
 class Skill {
-  constructor (id, name, intro) {
+  constructor (id) {
     this.id = id
-    this.name = name
-    this.intro = intro
+  }
+
+  toString () {
+    return `${this.id}`
+  }
+
+  run () {
+    switch (this.id) {
+      case 1: {
+        break
+      }
+      default: break
+    }
   }
 }
+
+module.exports = { skillType, Skill }
